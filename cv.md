@@ -39,8 +39,8 @@ Kharkiv, Ukraine
 ## **Courses**      
 -RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)  
 -ru.code-basics   
-    Javascript  
-    HTML  
+    *Javascript  
+    *HTML  
 ## **Languages**    
 Ukrainian – native  
 Russian – native  
