@@ -3,7 +3,7 @@
 ### **Location:**    Mosсow, Russia  
 ### **Phone :**      +89773391347  
 ### **E-mail:**      tymofieievai@gmail.com  
-### **GitHub:**      ElizabethT7  
+### **GitHub:**      [ElizabethT7](https://github.com/ElizabethT7)     
 ## **About Me**    
 I like learning and quickly master new areas of activity, new skills.  
 I work well in a team, I know how to resolve conflicts and compromise.  
