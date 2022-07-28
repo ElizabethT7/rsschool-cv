@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="assets/favicon.ico">
     <title>CV</title>
 </head>
 <body>
@@ -25,7 +24,16 @@
                     <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>  
                     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>                     
                     </ul>
+                    <div class="header__nav-close">
+                        <span class="header__nav-close-line"></span>
+                        <span class="header__nav-close-line"></span>
+                    </div>
                 </nav>
+                <div class="header__burger burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
+                </div>
             </div>
         </header>
         <!--Main-->
@@ -71,7 +79,7 @@
                 <div class="main-content" id="main-content">
                     <!--Profile-->
                     <section class="section" id="profile">
-                        <p id="position">Front-End developer</p>
+                        <p id="position">Junior HTML Developer</p>
                         <h1 class="name-title">IELYZAVETA TYMOFIEIEVA</h1>
                         <h2 class="section-title">About Me</h2>
                         <p> I like learning and quickly master new areas of activity, new skills.  <br>
@@ -82,12 +90,9 @@
                     <!--Links to completed projects-->
                     <section class="section" id="projects">
                         <h2 class="section-title">Projects</h2>
-                        <table>
-                            <tr class="table">
-                                <th><a href="https://github.com/ElizabethT7/rsschool-cv/blob/rsschool-cv-html/index.html" class="main-link">CV</a></th>
-                                <th><span class="point">......................................[HTML5, CSS3]</span></th>
-                            </tr>
-                        </table>
+                        <ol>
+                            <li><a href="https://rolling-scopes-school.github.io/elizabetht7-JSFEPRESCHOOL2022Q2/travel/ " class="main-link">Travel <span class="use-skills">(HTML, CSS, JS)</span></a></li>
+                        </ol>                     
                     </section>
                     <section class="section" id="code">
                         <h2 class="section-title">Code Example</h2>
@@ -95,10 +100,20 @@
                         
                         <pre>
                             <code class="code">  
-                            // Write a function "greet" that returns "hello world!"
-                            const greet = () =>{
-                            return ('hello world!');
-                            }
+                            // Is a number prime?
+                            function isPrime(num) { 
+                                if (num === 2) {
+                                  return true;
+                                }
+                               if (num < 2) {
+                                  return false;
+                                } 
+                               for (let i = 2; i <= Math.sqrt(num); i++) {
+                                 if (num % i === 0) 
+                                   return false;
+                               }                            
+                               return true
+                             }
                             </code>
                         </pre>
                     
@@ -135,7 +150,7 @@
                         <h2 class="section-title">Education</h2>
                         <p><span class="company">V.N. Karazin Kharkiv National University, Kharkiv, Ukraine</span> <br>
                         <p class="specialty">M.S. in Applied Physics</p>
-                        <span class="period-and-country">2019-2022|Ukraine</span>
+                        <span class="period-and-country">2019-2012|Ukraine</span>
                     </section>
                 </div>
             
